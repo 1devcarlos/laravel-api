@@ -21,6 +21,7 @@ class QuestionController extends Controller
             $question -> answer_a = $q -> answers -> answer_a;
             $question -> answer_b = $q -> answers -> answer_b;
             $question -> answer_c = $q -> answers -> answer_c;
+            $question -> answer_d = $q -> answers -> answer_d;
             $question -> save();
         }
 

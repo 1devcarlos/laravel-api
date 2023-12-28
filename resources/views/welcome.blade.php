@@ -14,6 +14,7 @@
       <th scope="col">A1</th>
       <th scope="col">A2</th>
       <th scope="col">A3</th>
+      <th scope="col">A4</th>
     </tr>
   </thead>
   <tbody>
@@ -23,6 +24,7 @@
         <td>{{$question -> answer_a }}</td>
         <td>{{$question -> answer_b }}</td>
         <td>{{$question -> answer_c }}</td>
+        <td>{{$question -> answer_d }}</td>
     </tr>
     @endforeach
   </tbody>

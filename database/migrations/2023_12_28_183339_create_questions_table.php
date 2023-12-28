@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('answer_a')->nullable();
             $table->string('answer_b')->nullable();
             $table->string('answer_c')->nullable();
+            $table->string('answer_d')->nullable();
             $table->timestamps();
         });
     }
